@@ -150,7 +150,50 @@ body {
 
 	.service-icon {
 		padding-top: 1em;
-		padding-left: 0,5em;
+		padding-left: 0.5em;
 	}
+
+
+	/* Gallery Section */
+	
+	.gallery {
+		color: #f7f7f7;
+	}
+
+	.post-wrapper {
+		background-color: #fff;
+		position: relative;
+	}
+	.picture-block img {
+		width: 100%;
+	}
+	
+	.picture-text > div, .date-icon, .comments-icon {
+		display: inline-block;
+		color: #c7c7c7;
+	}
+
+	.post-title {
+		color: #414141;
+	}
+
+	.post-contain {
+		color: #696969;
+	}
+
+	.read-more {
+		border: none;
+		outline: none;
+		background: transparent;
+		color: #24b898;
+		text-transform: uppercase;
+		letter-spacing: 0.4px;
+	}
+
+
+
+
+
+
 
 
