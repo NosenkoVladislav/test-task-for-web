@@ -1,0 +1,156 @@
+html {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+	/* Header Section */
+	
+	.header {
+		background-image: url('images/header-bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		z-index: 0;
+		height: 100vh;
+		position: relative;
+	}
+
+	.header-blur {
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(23, 10, 7, 0.46);
+	}
+
+	.header-content {
+		position: absolute;
+		width: 100%;
+		top: 35%;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 0.7em;
+		z-index: 2;
+	}
+
+	.create-title > h1 {
+		margin: 0;
+		padding-top: 0;
+		font-size: 8em;
+		font-weight: bold;
+		color: #ececec;
+	}
+
+	.create-description > h3 {
+		margin: 0;
+		padding-top: 1.5em;
+		font-size: 1.5em;
+		color: #9f9f9f;
+	}
+
+	.btn-learn {
+		text-transform: uppercase;
+		font-size: 1.2em;
+		font-weight: bold;
+		color: #fff;
+		background-color: #000;
+		border: none;
+		outline: none;
+		letter-spacing: 0.2em;
+		padding: 0.6em 1.5em;
+		margin-top: 0.8em;
+	}
+
+	.mouse-scroll > img {
+		width: 50px;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		bottom: 0;
+		left: 50%;
+		color: #fff;
+	}
+
+	.mouse-scroll > img:hover {
+		cursor: pointer;
+	}
+
+	/* Who-we-are Section */
+
+	.who-we-are {
+		background-color: #fbf9fa;
+	}
+	
+	.who-we-wrapper {
+		padding-top: 1.5em;
+		padding-bottom: 3em;
+	}
+
+	.who-we-title {
+		font-size: 2em;
+		font-weight: bold;
+		color: #514f50;
+		padding: 1em 0;
+	}
+
+	.who-we-text {
+		font-size: 1.2em;
+		color: #20131a;
+	}
+
+	.btn-show {
+		border: none;
+		outline: none;
+		color: #fff;
+		background-color: #428cbd;
+		border-radius: 2em;
+		padding: 0.7em 1.5em;
+		font-size: 0.9em;
+		letter-spacing: 0.2em;
+		margin-top: 3.5em;
+	}
+
+	.iphone {
+		margin: 0 3em;
+	}
+
+	.iphone-pic {
+		width: 100%;
+	}
+
+	/* Services Section */
+
+	.service-wrapper {
+		margin-top: 3.5em;
+	}
+
+	.services-title {
+		text-transform: uppercase;
+	}
+
+	.services-description {
+		color: #5a5a5a;
+	}
+
+	.title {
+		font-weight: bold;
+		font-size: 1.2em;
+		color: #131313;
+	}
+
+	.description {
+		color: #636363;
+		font-size: 0.9em;
+		padding-top: 0.5em;
+	}
+
+	.service-icon {
+		padding-top: 1em;
+		padding-left: 0,5em;
+	}
+
+
