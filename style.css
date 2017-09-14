@@ -248,6 +248,7 @@ body {
 
 	.footer-input {
 		padding: 5px;
+		margin: 0;
 		border: none;
 		background-color: #242424;
 		outline: none;
@@ -263,6 +264,12 @@ body {
 
 	.btn-send:active {
 		background-color: #565555;
+	}
+
+	.footer-icons > a {
+		font-size: 1.6em;
+		margin: 0 0.4em;
+		color: #777777;
 	}
 
 
